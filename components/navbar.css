@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input[type="search"] {
+    width: 200px;
+    padding-right: 30px; /* Space for search icon */
+}
+
+.search-box .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.img{
+    margin-left: 450px;
+    
+}
